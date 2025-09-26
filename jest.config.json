@@ -9,6 +9,14 @@
   "collectCoverageFrom": ["src/**/*.ts", "!src/**/*.d.ts", "!src/index.ts"],
   "coverageDirectory": "coverage",
   "coverageReporters": ["text", "lcov", "html", "json"],
+  "coverageThreshold": {
+    "global": {
+      "branches": 90,
+      "functions": 90,
+      "lines": 90,
+      "statements": 90
+    }
+  },
   "reporters": [
     "default",
     [
